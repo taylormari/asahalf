@@ -1,0 +1,25 @@
+body {
+
+	margin: none;
+	padding:none;
+	background:none;
+	overflow-y: hidden;
+}
+
+img {
+	max-height: 100vh;
+	display:block;
+
+}
+
+.horizontal {
+	display: flex;
+	align-content: flex-start;
+	overflow: scroll;
+
+
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
